@@ -1,5 +1,4 @@
 # RoomTalk : Real-Time WebSocket Chat
-# RoomTalk 🎙️
 
 Multi-room real-time chat, no account required.
 
