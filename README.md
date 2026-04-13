@@ -27,6 +27,7 @@ Multi-room real-time chat, no account required.
 ## Features
 
 - Join a room by URL — /chat/name
+- username created automatically and can be modified
 - Real-time messages via WebSocket
 - Send photos, videos and files
 - Message history persisted in MongoDB
