@@ -39,7 +39,7 @@ Multi-room real-time chat, no account required.
 
 ```bash
 # Dependencies
-pip install django channels channels-redis daphne motor
+pip install requirements.txt
 python manage.py runserver
 ```
 
