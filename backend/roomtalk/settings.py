@@ -48,7 +48,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            "hosts": ["enter_redis_url"],
+            "hosts": ["redis://default:CN2GElAoUc6lxwt72bYFLNGujlqvfel9@redis-15770.c275.us-east-1-4.ec2.cloud.redislabs.com:15770"],
             "prefix": "roomtalk_",
         },
     },
