@@ -39,6 +39,7 @@ Multi-room real-time chat, no account required.
 
 ```bash
 # Dependencies
+cd backend
 pip install requirements.txt
 python manage.py runserver
 ```
