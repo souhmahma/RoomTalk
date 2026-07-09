@@ -7,7 +7,7 @@ from datetime import datetime
 
 class ChatConsumer(AsyncWebsocketConsumer):
     # Dictionnaire partagé pour suivre les pseudos actifs par room
-    # Format: { 'room_name': { 'pseudo1', 'pseudo2' } }
+    # Format: { 'room_name': { 'pseudo1', 'pseudo3' } }
     active_users = {}
 
     async def connect(self):
