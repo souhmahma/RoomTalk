@@ -30,7 +30,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
             "suggested_username": self.username
         }))
 
-        # Récupération de l'historique
+        # Récupération d'historique
         cursor = messages_collection.find({"room": self.room_name}).sort("timestamp", 1).limit(50)
         async for msg in cursor:
             await self.send(text_data=json.dumps({
