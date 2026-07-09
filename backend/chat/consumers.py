@@ -50,7 +50,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
                 return name
 
     async def disconnect(self, close_code):
-        # Retirer l'utilisateur de la liste des actifs
+        # Retire l'utilisateur de la liste des actifs
         if self.room_name in ChatConsumer.active_users:
             ChatConsumer.active_users[self.room_name].discard(self.username)
         
